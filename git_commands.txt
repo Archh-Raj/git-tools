@@ -1,2 +1,15 @@
 git init - to intialize the git in the directory
-git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+git status - to see the status
+
+git add . - to add the all the changes to the cache
+
+git commit -m "<commit message>" - to commit all the changes from cache
+
+{   git remote add origin https://github.com/<userName>/<repoName> - to add the repo from the command line.
+
+    git branch -M main - to change the branch name to main
+
+    git push -u origin main - to pushi the main branch to the remote we already set } --- password remote auth is disabled so create token and use
+
+git remote set-url origin https://<token>@github.com/<username>/<repoName>
